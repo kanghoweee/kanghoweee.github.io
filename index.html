@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="self-description">
+                <img src="./resources/profile-pic.png" alt="Profile Picture">
+                <div class="description-text">
+                    <h3>Hey there! 👋 I'm Kang Howe</h3>
+                    <p>I'm all about diving into the world of robotics and automation. With a mix of curiosity and passion, I'm on a mission to unravel the complexities of this ever-evolving field.</p>
+                    <p>Picture this: I'm the kind of person who gets excited about coding algorithms that make robots dance, or tinkering with sensors to fine-tune their perception skills. From the buzz of servo motors to the hum of 3D printers, I thrive in the midst of wires, gears, and circuit boards.</p>
+                    <p>But it's not just about the tech jargon for me. I'm driven by the endless possibilities that robotics brings to the table – whether it's crafting autonomous drones for humanitarian aid or designing robotic exoskeletons to enhance human capabilities.</p>
+                    <p>With a background in Electrical and Electronics Engineering, I bring a solid foundation in ROS and related technologies, always hungry to learn more and push the boundaries of what's possible.</p>
+                    <p>So, whether it's discussing the latest breakthroughs in AI-driven robotics or geeking out over the intricacies of mechatronic systems, count me in! Let's embark on this exhilarating journey of innovation together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Add your projects here -->
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js" defer></script>
+</body>
+</html>
