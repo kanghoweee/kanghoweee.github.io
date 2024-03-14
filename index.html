@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>EEE Corner</title>
+    <link rel="icon" href="./resources/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
 </head>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>My Portfolio</h1>
+            <h1>Kang Howe's EEE Corner</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -28,53 +30,118 @@
             <div class="self-description">
                 <img src="./resources/profile-pic.png" alt="Profile Picture">
                 <div class="description-text">
-                    <h3>Hey there! 👋 I'm Kang Howe</h3>
+                    <h3>Hey there! I'm Kang Howe 👋</h3>
                     <p>I'm all about diving into the world of robotics and automation. With a mix of curiosity and passion, I'm on a mission to unravel the complexities of this ever-evolving field.</p>
                     <p>Picture this: I'm the kind of person who gets excited about coding algorithms that make robots dance, or tinkering with sensors to fine-tune their perception skills. From the buzz of servo motors to the hum of 3D printers, I thrive in the midst of wires, gears, and circuit boards.</p>
-                    <p>But it's not just about the tech jargon for me. I'm driven by the endless possibilities that robotics brings to the table – whether it's crafting autonomous drones for humanitarian aid or designing robotic exoskeletons to enhance human capabilities.</p>
                     <p>With a background in Electrical and Electronics Engineering, I bring a solid foundation in ROS and related technologies, always hungry to learn more and push the boundaries of what's possible.</p>
                     <p>So, whether it's discussing the latest breakthroughs in AI-driven robotics or geeking out over the intricacies of mechatronic systems, count me in! Let's embark on this exhilarating journey of innovation together.</p>
                 </div>
             </div>
         </div>
     </section>
+
     
+    
+
     <section id="portfolio">
+        <h2>Portfolio & Side Projects</h2>
+        <!-- <img id="portfolio-img" src="./resources/projects.jpg" alt="Projects">
+        <p>As Team Lead, I led the development of an autonomous spherical robot for drain inspection that chilnched the Best Idea award. I conceptualized the robot's architecture, managed budgets, and coordinated tasks, ensuring the timely completion of our project. Additionally, I took charge of integrating software with hardware components and debugging analog/digital signals. Our functional prototype received commendations from Singapore’s Public Utilities Board (PUB).</p> -->
         <div class="container">
-            <h2>Portfolio</h2>
-            <!-- Add your projects here -->
             <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of Project 1</p>
+                <img src="./resources/balle.jpg" alt="Ball-E">
+                <h3>Making and Tinkering Project (BALL-E) - Team Lead</h3>
+                <p>As Team Lead, I led the development of an autonomous spherical robot for drain inspection that chilnched the Best Idea award. I conceptualized the robot's architecture, managed budgets, and coordinated tasks, ensuring the timely completion of our project. Additionally, I took charge of integrating software with hardware components and debugging analog/digital signals. Our functional prototype received commendations from Singapore’s Public Utilities Board (PUB).</p>
             </div>
             <div class="project">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Description of Project 2</p>
+                <img src="./resources/sauvc.png" alt="SAUVC">
+                <h3>NTU Autonomous Underwater Vehicle Team - Electrical Lead</h3>
+                <p>As the Electrical Lead from January to September 2023, I architected signal circuitry, troubleshooted microcontroller issues, and optimized PID feedback control. I also integrated depth sensors into the existing software stack, enhancing the vehicle's autonomy and functionality. I also conducted live pool tests to ensure the reliability of the systems underwater.</p>
             </div>
-            <!-- Add more projects as needed -->
+            <div class="project">
+                <img src="./resources/pcbdesign.png" alt="PCB Design">
+                <h3>NTU Radio Frequency Laboratory - PCB Design Intern</h3>
+                <p>During my internship at NTU's Radio Frequency Laboratory, I designed a high-speed wireless transmitter PCB for NTU's EEE department. This included creating the schematic, board layout, and overseeing fabrication. I focused on maintaining signal integrity and noise tolerances through techniques like ground planes and differential pair routing, ensuring the PCB met rigorous performance standards.
+                </p>
+            </div>
+            <div class="project">
+                <img src="./resources/crowdcontrol.gif" alt="Crowd Control Algoritm">
+                <h3>Google Tech4Tomorrow Hackathon - Crowd Control Algorithm</h3>
+                <p>As the backend developer for my hackathon team, I utilized Python and Matplotlib to fuse computer vision data from OpenCV and simulated GPS positions. In doing so, I successfully implemented a fluid mechanics-based algorithm and adhered to object-oriented programming principles in creating the final algorithm. We presented our project at the Google Asia-Pacific HQ in Singapore, and came in 2nd place at the hackathon.</p>
+            </div>
+            <div class="project">
+                <img src="./resources/semanticslam.png" alt="SLAM and Object Tracking using a Robot in Unknown Environments">
+                <h3>Undergraduate Robotics Research - SLAM and Object Tracking in Unknown Environments</h3>
+                <p>My involvement at NTU’s Internet of Things Laboratory, has provided me the opportunity to contribute meaningfully to collaborative research endeavors in challenging research environments. Throughout the project, I focused on advancing simultaneous localization and mapping (SLAM) techniques and object tracking by integrating camera and RFID sensors, with significant progress demonstrated in both simulation platforms and real-world implementations.</p>
+            </div>
+            <div class="project">
+                <img src="./resources/glider.jpg" alt="glider">
+                <h3>NTU Garage@EEE Makerspace- Aerodynamic Glider</h3>
+                <p>During the semester break, I decided to embark on a fun self-initiated project at NTU's student makerspace, crafting an Aerodynamic Glider. With a focus on practicality and craftsmanship, I meticulously applied woodworking techniques to shape and refine the glider's structure. This project provided an exciting opportunity to explore aerodynamics while honing my hands-on skills. Through this endeavor, I not only expanded my knowledge of aircraft design but also showcased my ability to translate theoretical concepts into tangible creations through hands-on craftsmanship.</p>
+            </div>
         </div>
     </section>
+    
 
-    <section id="contact">
+    <section id="awards">
         <div class="container">
-            <h2>Contact Me</h2>
-            <form action="submit.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+            <h2>Awards & Scholarships</h2>
+            <img id="award-img" src="./resources/nsc2018.jpg" alt="Malaysian National Science Challenge (Grand Champion)">
+            <div class="award">
+                <h3>Malaysian National Science Challenge 2018</h3>
+                <h4 class="gold">Grand Champion</h2>
+            </div>
+            <div class="divider"><span class="circle"></span></div>
+            <div class="award">
+                <h3>ASEAN Pre-University Scholarship</h3>
+                <h4>Ministry of Education, Singapore</h4>
+            </div>
+            <div class="award">
+                <h3>Singapore Physics Olympiad 2020</h3>
+                <h4 class="gold">Gold Medallist</h4>
+            </div>
+            <div class="award">
+                <h3>Singapore Chemistry Olympiad 2020</h3>
+                <h4 class="silver">Silver Medallist</h4>
+            </div>
+            <div class="award">
+                <h3>Singapore Math Olympiad 2021</h3>
+                <h4 class="bronze">Bronze Medallist</h4>
+            </div>
+            <div class="award">
+                <h3>Singapore AstroChallenge 2021</h3>
+                <h4 class="gold">Gold Medallist</h4>
+            </div>
+            <div class="divider"><span class="circle"></span></div>
+            <div class="award">
+                <h3>ASEAN Pre-University Scholarship</h3>
+                <h4>Ministry of Education, Singapore</h4>
+            </div>
+            <div class="award">
+                <h3>C.N.Yang Research Programme Scholarship</h3>
+                <h4>Nanyang Technological University, Singapore</h4>
+            </div>
+            <div class="award">
+                <h3>Making & Tinkering Project 2023</h3>
+                <h4>BALL-E - Best Idea</h4>
+            </div>
+            <div class="award">
+                <h3>Google Tech4Tomorrow Hackathon 2024</h3>
+                <h4 class="silver">2nd Place</h4>
+            </div>
+           
         </div>
     </section>
-
     <footer>
         <div class="container">
-            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+            <div id="contact-container">
+                <h2 id="contact">Contact Me!</h2>
+                <div class="contact-icons">
+                    <a id="linkedin" href="https://www.linkedin.com/in/ongkanghowe/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                    <a id="github" href="https://github.com/kanghoweee" target="_blank"><i class="fab fa-github"></i></a> 
+                </div>
+            </div>
+            <p>&copy; 2024 Ong Kang Howe. All rights reserved.</p>
         </div>
     </footer>
     <script src="index.js" defer></script>
